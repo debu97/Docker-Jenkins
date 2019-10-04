@@ -10,7 +10,7 @@ node {
     stage('Build image') {
         /* This builds the actual image */
 
-        app = docker.build("divyang97/mynodeapp2")
+        app = docker.build("divyang97/dockerized-jenkins")
     }
 
     stage('Test image') {
